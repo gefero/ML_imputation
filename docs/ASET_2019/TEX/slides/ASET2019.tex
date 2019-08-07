@@ -157,18 +157,18 @@
 \subsubsection{Metodología}
 \begin{frame}
 \frametitle{Experimento con EPH}
+\framesubtitle{Pipeline}
 \includegraphics[width=0.99\linewidth, height=0.6\textheight]{../img/pipeline}
 \begin{itemize}
 	\item Dataset: EPH 2do. trimestre de 2015
 	\item Población: Ocupados en la semana de referencia
-	\item Objetivo: Generar un imputador de la variable ingresos
 	\item Variables predictoras sociodemográficas, laborales y otros ingresos
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Experimento con EPH}
-Estrategia de validación 1
+\framesubtitle{Estrategia de validación 1}
 \begin{itemize}
 	\item Estimación de métricas de error
 	\item Supuesto: Proceso de generación de datos perdidos MCAR o MAR
@@ -178,20 +178,16 @@ Estrategia de validación 1
 
 \begin{frame}
 \frametitle{Experimento con EPH}
-Estrategia de validación 2
-\begin{itemize}
-	\item Comparación de distribuciones sobre datos perdidos reales (es decir, imputados por INDEC)
-\end{itemize}
-\includegraphics[width=0.85\linewidth, height=0.5\textheight]{../img/density_imp}
+\framesubtitle{Estrategia de validación 2}
+Comparación de distribuciones sobre datos perdidos reales (es decir, imputados por INDEC)
+\includegraphics[width=0.85\linewidth, height=0.7\textheight]{../img/density_imp}
 \end{frame}
 
 \begin{frame}
 \frametitle{Experimento con EPH}
-Estrategia de validación 2
-\begin{itemize}
-	\item Comparación de distribución de datos completos (imputados + respuesta)
-\end{itemize}
-\includegraphics[width=0.85\linewidth, height=0.5\textheight]{../img/density_comp}
+\framesubtitle{Estrategia de validación 2}
+Comparación de distribución de datos completos (imputados + respuesta)
+\includegraphics[width=0.85\linewidth, height=0.7\textheight]{../img/density_comp}
 \end{frame}
 
 \subsubsection{Resultados}
@@ -203,6 +199,7 @@ Estrategia de validación 2
 		\item Problemas a futuro
 		\begin{itemize}
 			\item Extensión del alcance del ejercicio
+			\item Mejoras en tuneo de hiperparámetros (algoritmos de búsqueda más inteligentes, diferentes funciones de activación, etc.)
 			\item Propiedades de los estimadores y estimaciones de medidas basadas en ingresos al utilizar estas técnicas
 			\item Performance relativa a HotDeck en procesos de generación de datos no aleatorios
 		\end{itemize}

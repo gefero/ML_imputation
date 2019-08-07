@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.21)  4 AUG 2019 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.21)  4 AUG 2019 23:56
 entering extended mode
-**"./Converge 2018-Workshop-Imputación.tex"
-("Converge 2018-Workshop-Imputación.tex"
+**./ASET2019.tex
+(ASET2019.tex
 LaTeX2e <2018-04-01> patch level 5
 
 ("C:\Users\grosati\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamer.cl
@@ -942,11 +942,11 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 23.
 
-("Converge 2018-Workshop-Imputación.aux"
+(ASET2019.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-\openout1 = `"Converge 2018-Workshop-Imputación.aux"'.
+\openout1 = `ASET2019.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -1044,10 +1044,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 29.
 LaTeX Info: Redefining \pageref on input line 29.
 LaTeX Info: Redefining \nameref on input line 29.
- ("Converge 2018-Workshop-Imputación.out")
-("Converge 2018-Workshop-Imputación.out")
+ (ASET2019.out) (ASET2019.out)
 \@outlinefile=\write5
-\openout5 = `"Converge 2018-Workshop-Imputación.out"'.
+\openout5 = `ASET2019.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 29.
@@ -1128,7 +1127,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- ("Converge 2018-Workshop-Imputación.nav")
+ (ASET2019.nav)
 Overfull \hbox (98.69162pt too wide) in paragraph at lines 29--29
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1299,8 +1298,8 @@ Overfull \hbox (98.69162pt too wide) has occurred while \output is active
 <../img/density_imp.png, id=158, 758.5941pt x 427.5975pt>
 File: ../img/density_imp.png Graphic file (type png)
 <use ../img/density_imp.png>
-Package pdftex.def Info: ../img/density_imp.png  used on input line 186.
-(pdftex.def)             Requested size: 290.9542pt x 130.23761pt.
+Package pdftex.def Info: ../img/density_imp.png  used on input line 184.
+(pdftex.def)             Requested size: 290.9542pt x 182.33005pt.
 
 Overfull \hbox (98.69162pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1312,8 +1311,8 @@ Overfull \hbox (98.69162pt too wide) has occurred while \output is active
 <../img/density_comp.png, id=168, 758.5941pt x 427.5975pt>
 File: ../img/density_comp.png Graphic file (type png)
 <use ../img/density_comp.png>
-Package pdftex.def Info: ../img/density_comp.png  used on input line 195.
-(pdftex.def)             Requested size: 290.9542pt x 130.23761pt.
+Package pdftex.def Info: ../img/density_comp.png  used on input line 191.
+(pdftex.def)             Requested size: 290.9542pt x 182.33005pt.
 
 Overfull \hbox (98.69162pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1337,34 +1336,33 @@ Overfull \hbox (98.69162pt too wide) has occurred while \output is active
 
 ]
 \tf@nav=\write6
-\openout6 = `"Converge 2018-Workshop-Imputación.nav"'.
+\openout6 = `ASET2019.nav'.
 
 \tf@toc=\write7
-\openout7 = `"Converge 2018-Workshop-Imputación.toc"'.
+\openout7 = `ASET2019.toc'.
 
 \tf@snm=\write8
-\openout8 = `"Converge 2018-Workshop-Imputación.snm"'.
+\openout8 = `ASET2019.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
- ("Converge 2018-Workshop-Imputación.aux"
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+ (ASET2019.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
-Package rerunfilecheck Info: File `"Converge 2018-Workshop-Imputación".out' ha
-s not changed.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package rerunfilecheck Info: File `ASET2019.out' has not changed.
 (rerunfilecheck)             Checksum: 08DAB59A5DBBF37B95BECB6E3D5B4DAB;359.
  ) 
 Here is how much of TeX's memory you used:
- 21643 strings out of 492970
- 430129 string characters out of 3125705
- 507211 words of memory out of 3000000
- 24959 multiletter control sequences out of 15000+200000
+ 21644 strings out of 492970
+ 429703 string characters out of 3125705
+ 506987 words of memory out of 3000000
+ 24960 multiletter control sequences out of 15000+200000
  12316 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,16n,59p,822b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,16n,59p,794b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/grosati/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmss10.pfb><C:/Users/grosati/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmss12.pfb><C:/Users/grosati/AppData/Local/Programs/MiKTeX
@@ -1377,8 +1375,7 @@ blic/amsfonts/cm/cmssi10.pfb><C:/Users/grosati/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/grosati/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/grosati/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Converge 2018-Workshop-Imputación.pdf" (16 pages, 906441 by
-tes).
+Output written on ASET2019.pdf (16 pages, 906953 bytes).
 PDF statistics:
  238 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
