@@ -1,0 +1,13 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{2}{0}{1}
+\beamer@sectionintoc {2}{\IeC {\textquestiondown }Qu\IeC {\'e} es un valor perdido?}{3}{0}{2}
+\beamer@sectionintoc {3}{\IeC {\textquestiondown }C\IeC {\'o}mo lidiar con valores perdidos?}{6}{0}{3}
+\beamer@subsectionintoc {3}{1}{M\IeC {\'e}todos de Imputaci\IeC {\'o}n Simple}{6}{0}{3}
+\beamer@subsectionintoc {3}{2}{T\IeC {\'e}cnicas de Machine Learning}{9}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{1}{Bagging}{10}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{2}{Boosting}{11}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{3}{MLP}{12}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{4}{Metodolog\IeC {\'\i }a}{15}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{5}{Resultados}{20}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{6}{La Yapa...}{21}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{7}{La Yapa...}{22}{0}{3}
