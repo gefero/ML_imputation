@@ -59,10 +59,11 @@ fitControl <- trainControl(
 set.seed(7412)
 cv_index2 <- createFolds(y = df_train$p21,
                          k=5,
+                         list=TRUE,
                          returnTrain=TRUE)
 
 fitControl2 <- trainControl(
-        indexOut=cv_index2, 
+        index=cv_index2,
         method="cv",
         number=5,
         allowParallel=TRUE)

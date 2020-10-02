@@ -37,4 +37,7 @@ ggplot(data=imp, aes(x=year, y=imput)) +
         geom_vline(xintercept = 2007, color='blue', linetype='dashed') +
         geom_vline(xintercept = 2016, color='blue', linetype='dashed') +
         labs(x='Año (II-Trimestre)',
-             y='% casos S/R eningresos (individuos)')
+             y='% casos S/R eningresos (individuos)') + 
+   theme_minimal()
+
+ggsave('./plots/01_NR_EPH.png')

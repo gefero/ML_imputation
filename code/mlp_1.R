@@ -139,7 +139,9 @@ mlp_eval<- cross_val_mlp(n_h=3,
                          X=X, dep=y) # RMSE (cv_index)=4046
 proc.time()-t0
 
-mlp_eval$model %>% save_model_hdf5('./models/mlp_eval_final_sin_ceros.h5')
+
+
+mlp_eval$model %>% save_model_hdf5('./models/20200929_mlp_eval_final_sin_ceros.h5')
 
 #RMSE (cv_index2)=4200
 

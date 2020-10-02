@@ -15,11 +15,13 @@ dmy <- dummyVars(~., data=X_imp)
 
 X_imp <- as.matrix(predict(dmy, newdata = X_imp))
 
+#rf_final<-readRDS('./models/rf_final_f_sin_ceros.rds')
+#xgb_final<-readRDS('./models/xgb_final_f_sin_ceros.rds')
+#mlp_final<-load_model_hdf5('./models/mlp_final_f_sin_ceros.h5')
 
 
-
-rf_final<-readRDS('./models/rf_final_f_sin_ceros.rds')
-xgb_final<-readRDS('./models/xgb_final_f_sin_ceros.rds')
+rf_final<-readRDS('./models/20200925_rf_final_f_sin_ceros.rds')
+xgb_final<-readRDS('./models/20200928_xgb_final_f_sin_ceros.rds')
 mlp_final<-load_model_hdf5('./models/mlp_final_f_sin_ceros.h5')
 
 # PREDICCION SOBRE DATOS IMPUTADOS (df_imp)
@@ -49,18 +51,24 @@ colnames(preds_tidy)<-c('method', 'value')
 
 ggplot(data=preds_tidy) + 
         geom_density(aes(x=value, fill=method), alpha=0.4) +
-        theme_minimal()
-
+        theme_minimal() + 
+        labs(x='Ingresos ($)',
+             y='Densidad',
+             fill='Método')
+             
 ggsave('./plots/G3_density_imp.png')
 
 ggplot(data=preds_tidy) +
-        geom_boxplot(aes(x=method, y=value, fill=method)) + 
-        theme_minimal()
+        geom_boxplot(aes(x=method, y=value, fill=method),
+                     show.legend = FALSE) + 
+        theme_minimal() +
+        labs(y='Ingresos ($)',
+             x='Densidad')
 
 ggsave('./plots/G4_boxplot_imp.png')
 
 
-preds_tidy %>% 
+knitr::kable(preds_tidy %>% 
         group_by(method) %>%
         summarize(Min=min(value),
                   Q1=quantile(value, probs=0.25),
@@ -70,7 +78,9 @@ preds_tidy %>%
                   Max=max(value),
                   Std.Dev=sd(value),
                   CV=Std.Dev/Media,
-                  MAD=mad(value))
+                  MAD=mad(value)),
+        digits=2
+)
 
 
 # COMPARACION DE TOTAL DE CASOS 
@@ -93,20 +103,26 @@ df_train %>%
         ggplot() + 
         geom_density(aes(x=value, fill=method), alpha=0.4) +
         #facet_grid(~cat_ocup) +
-        theme_minimal()
+        theme_minimal() +
+        labs(x='Ingresos ($)',
+             y='Densidad',
+             fill='Método')
 
 ggsave('./plots/G4_density_comp.png')
 
 
 df_train %>%
-        filter(cat_ocup!='Trabajador familiar sin remuneraciÃ³n') %>%
+        filter(cat_ocup!='Trabajador familiar sin remuneración') %>%
         select(cat_ocup, RandomForest, XGBoost, MLPerceptron, HotDeck) %>%
         gather(method, value, RandomForest:HotDeck) %>%
         #rename(method=key) %>%
         ggplot() + 
                 geom_density(aes(x=value, fill=method), alpha=0.4) +
                 facet_grid(~cat_ocup) +
-                theme_minimal()
+                theme_minimal() +
+        labs(x='Ingresos ($)',
+             y='Densidad',
+             fill='Método')
 
 ggsave('./plots/G5_density_comp_cat_ocup.png')
 
