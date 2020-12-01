@@ -17,6 +17,8 @@ xgbGrid <- expand.grid(nrounds = c(100, 125, 130, 140, 150, 180, 200),
                        min_child_weight = c(1, 0),
                        subsample = 1)
 
+
+
 cl <- makeCluster(8, type='PSOCK', outfile='')
 registerDoParallel(cl)
 
